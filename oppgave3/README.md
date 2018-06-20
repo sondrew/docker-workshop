@@ -12,11 +12,14 @@ Lag en fil som heter `.dockerignore` i mappa [docker-workshop/oppgave3/frontend/
 
 Siden lokal kjøring av denne enkle applikasjonen vil generere mappa `node_modules/` og siden denne blir generert i selve containeren også, kan vi ignorere den. Legg den til på en egen linje i fila.
 
+## Dockerfile
+Lag en ny Dockerfile på samme måte som du gjorde i [oppgave 3](../oppgave2/). Bytt ut `app.js` med `server.js`.
+
 ## Docker Hub
 Docker er nyttig for kjøring og debugging lokalt. Men som med det meste vi utviklere driver med er det nyttig å ha det, gjerne versjonert, på nett et sted. Her kommer Docker Registry inn. Et Docker Registry er et sted du kan finne og laste opp images slik at de kan brukes for eksempel når du skal deploye applikasjonen din. Et eksempel er Docker Hub.
 
 Gå inn på [Docker Hub](https://hub.docker.com/) og lag deg en konto, hvis du ikke har en.
-
+ 
 Logg inn fra kommandolinja:
 
 ```
