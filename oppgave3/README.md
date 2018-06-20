@@ -13,6 +13,8 @@ Lag en fil som heter `.dockerignore` i mappa [docker-workshop/oppgave3/frontend/
 Siden lokal kjøring av denne enkle applikasjonen vil generere mappa `node_modules/` og siden denne blir generert i selve containeren også, kan vi ignorere den. Legg den til på en egen linje i fila.
 
 ## Docker Hub
+Docker er nyttig for kjøring og debugging lokalt. Men som med det meste vi utviklere driver med er det nyttig å ha det, gjerne versjonert, på nett et sted. Her kommer Docker Registry inn. Et Docker Registry er et sted du kan finne og laste opp images slik at de kan brukes for eksempel når du skal deploye applikasjonen din. Et eksempel er Docker Hub.
+
 Gå inn på [Docker Hub](https://hub.docker.com/) og lag deg en konto, hvis du ikke har en.
 
 Logg inn fra kommandolinja:
@@ -27,7 +29,7 @@ Nå er du klar til å bygge og pushe imaget ditt. Husk å bytte ut username med 
 docker build --tag username/hello-world .
 ```
 
-Tagen username/hello-world forteller Docker at den skal lete etter et Dockerimage på din bruker som heter hello-world. Push det til DockerHub:
+La oss pushe det til Docker Hub:
 
 ```
 docker push username/hello-world
@@ -35,3 +37,4 @@ docker push username/hello-world
 
 Gå tilbake til Docker Hub i nettleseren og se at du har fått et nytt repository på din profil.
 
+Tagen username/hello-world er nyttig når man pusher imaget til et registry fordi den forteller Docker hvor imaget skal pushes.
