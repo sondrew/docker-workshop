@@ -2,9 +2,9 @@ FROM node
 
 WORKDIR /app
 
-COPY package.json /app
-COPY app.js /app
-RUN npm install
+COPY <package file> <workdir>
+COPY <js file> <workdir>
+RUN <install dependencies>
 
-EXPOSE 3000
+EXPOSE <port>
 CMD ["node", "app.js"]
