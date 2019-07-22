@@ -1,7 +1,10 @@
 FROM node
 
-RUN <installer avhengigheter>
+WORKDIR /app
 
-ADD <legg til app.js>
+COPY package.json /app
+COPY app.js /app
+RUN npm install
 
+EXPOSE 3000
 CMD ["node", "app.js"]

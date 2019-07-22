@@ -1,0 +1,14 @@
+{
+  "name": "docker",
+  "version": "0.0.1",
+  "description": "Docker testbuild using ExpressJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  	"express": "latest"
+  }
+}

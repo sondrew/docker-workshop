@@ -4,7 +4,8 @@ Oppgave 2
 Nå skal du bruke en Dockerfile og bygge et image fra bunnen av, før du kjører den opp som en kontainer.
 
 * Fyll ut manglende tekst i Dockerfile
-* Bygg image med `docker build .`
+* Bygg image med `docker build . -t <navn>`
+* Se at image'et ditt har blitt bygget `docker image ls`
 * Kjør imaget opp (se forrige oppgave for hvordan)
 
 
