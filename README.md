@@ -1,6 +1,6 @@
 Docker workshop
 ===============
 
-En enkel workshop for å komme i gang med Docker.
+En enkel workshop for å komme i gang med Docker. Start med installasjon av Docker i [Oppgave 0](/oppgave0/) og beveg deg gjennom.
 
-Se slides på [slides.com](https://slides.com/kyrremann/docker-in-practise-6-8).
+Spør om du trenger hjelp! 😄

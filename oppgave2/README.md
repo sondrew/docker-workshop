@@ -16,6 +16,8 @@ De fleste Docker-kommandoer støtter argumenter, som kan gjøre jobben litt enkl
 PS: Beskrivelsene er copy-paste fra `docker <command> --help`
 
 
+Når du er ferdig, gå til [Oppgave 3](../oppgave3/).
+
 ### docker build
 
 `-t/--tag` - Name and optionally a tag in the 'name:tag' format

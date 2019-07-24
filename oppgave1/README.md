@@ -16,11 +16,15 @@ docker ps
 docker ps --all
 # Prøv å kjøre et image direkte
 docker run docker/whalesay cowsay Hello whale!
+* Klarer du å få hvalen til å si noe annet?
 ```
 
 `docker run` vil automatisk laste ned image du prøver å kjøre hvis den ikke finner de på maskinen din. Derfor kunne du har sløyfet `docker pull` i denne oppgaven.
 
 PS: Husk at du alltid kan sjekke hvilke kontainere som kjører med `docker ps`.
+
+
+Når du er ferdig, gå til [Oppgave 2](../oppgave2/).
 
 
 ## Tillegg
