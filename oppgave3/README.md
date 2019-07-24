@@ -22,10 +22,10 @@ Docker er nyttig for kjøring og debugging lokalt. Men som med det meste vi utvi
 Logg inn fra kommandolinja:
 
 ```
-docker login --username=<yourhubusername>
+docker login --username=<ditt-brukernavn>
 ``` 
 
-Nå er du klar til å bygge og pushe imaget ditt. Husk å bytte ut username med ditt eget.
+Nå er du klar til å bygge og pushe imaget ditt. Husk å bytte ut username med ditt eget. Du kan for eksempel kalle imaget `hello-world`.
 
 ```
 docker build --tag <ditt-brukernavn>/<navn-på-imaget> .
@@ -40,3 +40,6 @@ docker push username/hello-world
 Gå tilbake til Docker Hub i nettleseren og se at du har fått et nytt repository på din profil.
 
 Tagen username/hello-world er nyttig når man pusher imaget til et registry fordi den forteller Docker hvor imaget skal pushes.
+
+
+Når du er ferdig, gå til [Oppgave 4](../oppgave4/).

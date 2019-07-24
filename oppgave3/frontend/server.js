@@ -4,13 +4,13 @@ const port = 5000;
 
 app.get('/', (request, response) => {
 	response.send("Hello, World!");
-	logger.info('Responded to GET request on /')
+	console.log('Responded to GET request on /')
 });
 
 app.listen(port, (err) => {
   if (err) {
-    return logger.error('something bad happened', err)
+    return console.error('something bad happened', err)
   }
 
-  logger.info(`server is listening on ${port}`)
+  console.info(`Server is listening on ${port}`)
 });
