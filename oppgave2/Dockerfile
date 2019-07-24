@@ -1,9 +1,8 @@
 FROM node
 
 WORKDIR /app
-
-COPY <package file> <workdir>
-COPY <js file> <workdir>
+COPY <dependencies> <workdir>
+COPY <app> <workdir>
 RUN <install dependencies>
 
 EXPOSE <port>

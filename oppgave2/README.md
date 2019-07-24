@@ -7,7 +7,7 @@ Nå skal du bruke en Dockerfile og bygge et image fra bunnen av, før du kjører
 * Bygg image med `docker build . -t <navn>`
 * Se at image'et ditt har blitt bygget `docker image ls`
 * Kjør imaget opp (se forrige oppgave for hvordan)
-
+* Får du ikke opp noe? Prøv å kjøre imaget ditt med `-p <port ut fra containeren>:<port inn i containeren>`
 
 ## Tillegg
 
@@ -22,3 +22,5 @@ PS: Beskrivelsene er copy-paste fra `docker <command> --help`
 
 `--pull` - Always attempt to pull a newer version of the image
 Sikrer at du har siste versjon av imaget du bruker i `FROM`
+
+`-p/--publish` Publish a container's port(s) to the host
